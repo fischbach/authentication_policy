@@ -1,5 +1,5 @@
 name: application_policies
-label: 8. Create application policies to trigger RADIUS 2FA authentication events
+label: 9. Create application policies to trigger RADIUS 2FA authentication events
 
 description: Modify the GlobalProtect agent configuration to support authentication policy.
 
@@ -20,6 +20,5 @@ variables:
 
 snippets:
     - name: auth_policy
-      xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/global-protect
-#      xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/global-protect/global-protect-portal/entry
+      xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/rulebase/authentication/rules/entry
       file: 0-auth_policy.xml
