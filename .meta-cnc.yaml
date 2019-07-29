@@ -12,11 +12,34 @@ labels:
     - X509 Certificates
 
 variables:
-  - name: portal_name
-    description: Name of the portal
-    default: Portal-1
+  - name: policy_name
+    description: Name of the authentication policy
+    default: MFA from test source
     type_hint: text
-
+  - name: src_zone
+    description: What is the source zone?
+    default: Trust
+    type_hint: text
+  - name: dst_zone
+    description: What is the destination zone?
+    default: untrust
+    type_hint: text
+  - name: dst_ip_addr
+    description: What is the destination IP address?
+    default: 192.168.35.X
+    type_hint: ip_address
+  - name: policy_name
+    description: Name of the authentication policy
+    default: MFA from test source
+    type_hint: text
+  - name: auth_enforcer
+    description: Name of the authentication object
+    default: duo_auth_object
+    type_hint: text
+  - name: src_user
+    description: username/group of the source user
+    default: any
+    type_hint: text
 
 snippets:
     - name: auth_policy

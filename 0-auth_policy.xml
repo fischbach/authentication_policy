@@ -1,0 +1,22 @@
+ <entry name="{{ policy_name }}">
+      <from>
+        <member>{{ src_zone }}</member>
+      </from>
+      <to>
+        <member>{{ dst_zone }}</member>
+      </to>
+      <source>
+        <member>any</member>
+      </source>
+      <destination>
+        <member>{{ dst_ip_addr }}</member>
+      </destination>
+      <source-user>
+        <member>{{ src_user }}</member>
+      </source-user>
+      <service>
+        <member>any</member>
+      </service>
+      <authentication-enforcement>{{ auth_enforcer }}</authentication-enforcement>
+      <disabled>no</disabled>
+    </entry>
