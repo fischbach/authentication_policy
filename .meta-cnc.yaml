@@ -1,7 +1,7 @@
-name: application_policies
-label: 9. Create application policies to trigger RADIUS 2FA authentication events
+name: authenticationn_policies
+label: 9. Create authentication policies to trigger RADIUS 2FA authentication events
 
-description: Modify the GlobalProtect agent configuration to support authentication policy.
+description: Authentication policies define what apps will trigger an additional 2FA authentication event.
 
 extends:
 
