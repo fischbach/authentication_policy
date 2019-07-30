@@ -40,6 +40,10 @@ variables:
     description: username/group of the source user
     default: any
     type_hint: text
+  - name: services
+    description: services that will trigger
+    default: service-http
+    type_hint: text
 
 snippets:
     - name: auth_policy

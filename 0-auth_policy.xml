@@ -15,7 +15,7 @@
         <member>{{ src_user }}</member>
       </source-user>
       <service>
-        <member>any</member>
+        <member>{{ services }}</member>
       </service>
       <authentication-enforcement>{{ auth_enforcer }}</authentication-enforcement>
       <disabled>no</disabled>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54a986f7-3d94-4702-9c5f-8aead495306b" name="Default Changelist" comment="" />
+    <list default="true" id="54a986f7-3d94-4702-9c5f-8aead495306b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.meta-cnc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.meta-cnc.yaml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.meta-cnc.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+            <state relative-caret-position="515">
+              <caret line="44" column="16" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -279,12 +281,12 @@
       <workItem from="1564430548537" duration="946000" />
       <workItem from="1564433967905" duration="1427000" />
       <workItem from="1564497955595" duration="213000" />
-      <workItem from="1564500467441" duration="565000" />
+      <workItem from="1564500467441" duration="882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3151000" />
+    <option name="totallyTimeSpent" value="3468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="0" width="2045" height="1066" extended-state="0" />
@@ -336,8 +338,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.meta-cnc.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+        <state relative-caret-position="515">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="16" />
         </state>
       </provider>
     </entry>
