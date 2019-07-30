@@ -34,7 +34,7 @@ variables:
     type_hint: text
   - name: auth_enforcer
     description: Name of the authentication object
-    default: duo_auth_object
+    default: Duo_Radius-Proxy
     type_hint: text
   - name: src_user
     description: username/group of the source user
